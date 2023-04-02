@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clear Fashion Products</title>
+    <link rel="stylesheet" href="style2.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Clear Fashion Products</h1>
+        <img class="photo" src="https://cache.marieclaire.fr/data/photo/w1200_h630_c17/6g/fashion-week.jpg" alt="My Image">
+    </header>
+    <main>
+        <section class="filters">
+            <label for="brand-filter">Filter by Brand:</label>
+            <select id="brand-filter">
+                <option value="">All Brands</option>
+            </select>
+
+            <label for="sort-by-price">Sort by Price:</label>
+            <select id="sort-by-price">
+                <option value="">Default</option>
+                <option value="asc">Lowest to Highest</option>
+                <option value="desc">Highest to Lowest</option>
+            </select>
+            <label for="date">Date of Release:</label>
+            <input type="date" id="date">
+            <button id="search">Search</button>
+        </section>
+
+        <section class="product-list">
+        </section>
+    </main>
+    <script src="portfolio.js"></script>
+</body>
+</html>
